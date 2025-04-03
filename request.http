@@ -1,9 +1,0 @@
-GET http://localhost:3000
-
-###
-
-POST http://localhost:3000/mood/happy
-
-###
-
-GET http://localhost:3000/moods
