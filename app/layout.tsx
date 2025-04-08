@@ -1,3 +1,5 @@
+import GA from "../components/GA";
+
 export default function RootLayout({
   children,
 }: {
@@ -5,6 +7,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <GA gaId="G-XXXXXXXXXX" />
+      </head>
       <body>{children}</body>
     </html>
   );
