@@ -21,6 +21,7 @@
   "homepage": "https://github.com/iloabn/hyper-1#readme",
   "description": "",
   "dependencies": {
+    "@next/third-parties": "^15.2.4",
     "next": "^15.2.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
